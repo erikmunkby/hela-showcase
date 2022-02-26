@@ -1,6 +1,6 @@
 ## Showcase catalog
 This catalog is a showcase catalog of the `hela` python package.
-All data and information in this catalog is fictional. This web app was generated using the `hela` package as a single `index.html` file and consequently hosted on GitHub pages, you can find the automated github workflow file for this script [here](TODO: add link to wf file)
+All data and information in this catalog is fictional. This web app was generated using the `hela` package as a single `index.html` file and consequently hosted on GitHub pages, you can find the automated github workflow file that generated this web app [here](https://github.com/erikmunkby/hela-showcase/blob/master/.github/workflows/github_pages.yaml)
 
 Links:
 * Find `hela` on [PyPI](https://pypi.org/project/hela/)
