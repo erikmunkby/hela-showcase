@@ -1,0 +1,18 @@
+[tool.poetry]
+authors = ["Erik Munkby <erik.munkby@gmail.com>"]
+description = "A showcase repo demonstrating data catalog package hela."
+name = "hela-showcase"
+version = "0.1.0"
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<3.11"
+hela = "^0.2.1"
+pandas = "1.2.3"
+autopep8 = "^1.6.0"
+fastparquet = "^0.8.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]

@@ -1,0 +1,7 @@
+__pycache__
+.pytest_cache
+.venv
+.vscode
+.example_data
+showcase_data/
+gh_pages/
