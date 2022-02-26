@@ -7,7 +7,7 @@ from beer_catalog.column_store import ColumnStore
 beer_reviews = PandasParquetDataset(
     name='beer_reviews',
     description='Collection of reviews of beer made by users on the website.',
-    rich_description_path='examples/rich_descriptions/beer_reviews.md',
+    rich_description_path='beer_catalog/rich_descriptions/beer_reviews.md',
     partition_cols=['date'],
     columns=[
         ColumnStore.date,

@@ -7,7 +7,7 @@ from beer_catalog.column_store import ColumnStore
 beer_info = PandasParquetDataset(
     name='beer_info',
     description='Meta data for each beer such as description, beer type and alcohol percentage.',
-    rich_description_path='examples/rich_descriptions/beer_info.md',
+    rich_description_path='beer_catalog/rich_descriptions/beer_info.md',
     columns=[
         ColumnStore.product_code,
         ColumnStore.product_name,

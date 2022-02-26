@@ -7,7 +7,7 @@ from beer_catalog.column_store import ColumnStore
 orders = PandasParquetDataset(
     name='orders',
     description='Collection of orders made by users in the website and in store.',
-    rich_description_path='examples/rich_descriptions/orders_dataset.md',
+    rich_description_path='beer_catalog/rich_descriptions/orders_dataset.md',
     partition_cols=['date'],
     columns=[
         ColumnStore.user_id,
