@@ -67,7 +67,7 @@ ssh = ["paramiko"]
 
 [[package]]
 name = "hela"
-version = "0.2.1"
+version = "0.2.2"
 description = "Your data catalog as code and one schema to rule them all."
 category = "main"
 optional = false
@@ -268,8 +268,8 @@ fsspec = [
     {file = "fsspec-2022.2.0.tar.gz", hash = "sha256:20322c659538501f52f6caa73b08b2ff570b7e8ea30a86559721d090e473ad5c"},
 ]
 hela = [
-    {file = "hela-0.2.1-py3-none-any.whl", hash = "sha256:bc23898e132a5aa2f3bf16df553125b62d2416e77d8c07405fc6f253169edc9b"},
-    {file = "hela-0.2.1.tar.gz", hash = "sha256:becfc99149bde64d345ef97ea4a7dd4359a61366ebf590419385f46b6be6852f"},
+    {file = "hela-0.2.2-py3-none-any.whl", hash = "sha256:c3fddc7059d41b9503701784caa4e32e7a4a6517565c7e72a62b1d495e3878eb"},
+    {file = "hela-0.2.2.tar.gz", hash = "sha256:8574b4b2baf4debe77961df1c900f710b25177b3216bac690bfa942bf15e6ac4"},
 ]
 numpy = [
     {file = "numpy-1.21.5-cp310-cp310-macosx_10_9_universal2.whl", hash = "sha256:301e408a052fdcda5cdcf03021ebafc3c6ea093021bf9d1aa47c54d48bdad166"},
