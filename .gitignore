@@ -4,3 +4,5 @@ __pycache__
 .vscode
 .example_data
 gh_pages/
+.ipynb_checkpoints/
+tests.ipynb
